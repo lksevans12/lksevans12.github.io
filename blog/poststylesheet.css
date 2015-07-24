@@ -75,6 +75,11 @@ section{
 	color:#5C3317;
 }
 
+section#marker{
+	text-align: left;
+	margin-right: 100px;
+}
+
 span{
 	font-weight: bold;
 	text-decoration: underline;

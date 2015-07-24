@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+  <title>Cultural Blog by Laura Evans</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="poststylesheet.css">
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+      <div id = "header">
+        Welcome to the Past,<br> Present, and Future of <span id = "header">Laura Evans!</span>
+      </div>
+      <hr>
+      <div id= "nav">
+        <ul class ="nav">
+         <li><a href ="../index.html"> Welcome home! </a></li>
+     <li><a href ="../about.html"> About me! </a></li>
+     <li><a href ="#"> Portfolio </a></li>
+     <li><a href ="#"> Resume </a></li>
+     <li><a href ="index.html">Blog </a></li>
+     <li><a href ="../contact.html"> Contact me </a></li>
+        </ul>
+    </div>
+
+<main>
+  <header>
+  <h1>U2.W5: Technical Blog: Ruby Classes</h1>
+  <h2>Dev Bootcamp Blog</h2>
+  <h4>July 24th, 2015</h4>
+</header>
+<br>
+<br>
+
+  <section>
+    When I was younger, everytime I went to my aunt's house, I would take of my shoes and run to the height wall where everyone who walked into her house would get measured. Mind you, I went there every day, so it probably wasnt changing much. Now as an adult, and someone who loves to code, I realize that I can make my own code to represent the height wall. 
+  </section>
+
+  <section id = marker>
+  <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="font-weight: bold">class</span> <span style="color: #445588; font-weight: bold">Height</span> <span style="color: #999988; font-style: italic">#New class of object</span>
+
+  <span style="font-weight: bold">def</span> <span style="color: #990000; font-weight: bold">initialize</span> (<span style="color: #999999">name</span>, height, date) <span style="color: #999988; font-style: italic">#instance variables</span>
+    <span style="color: #008080">@name</span> <span style="font-weight: bold">=</span> <span style="color: #999999">name</span>
+    <span style="color: #008080">@height</span> <span style="font-weight: bold">=</span> height
+    <span style="color: #008080">@date</span> <span style="font-weight: bold">=</span> date
+  <span style="font-weight: bold">end</span>
+
+  <span style="font-weight: bold">def</span> <span style="color: #990000; font-weight: bold">intro</span> 
+    <span style="color: #999999">puts</span> <span style="color: #bb8844">&quot;Hello #{</span><span style="color: #008080">@name</span><span style="color: #bb8844">}. Let&#39;s measure you!&quot;</span>
+  <span style="font-weight: bold">end</span>
+
+  <span style="font-weight: bold">def</span> <span style="color: #990000; font-weight: bold">measure</span>
+    <span style="color: #999999">puts</span> <span style="color: #bb8844">&quot;You are #{</span><span style="color: #008080">@height</span><span style="color: #bb8844">}!&quot;</span>
+  <span style="font-weight: bold">end</span>
+
+  <span style="font-weight: bold">def</span> <span style="color: #990000; font-weight: bold">wall</span>
+    <span style="color: #999999">puts</span> <span style="color: #bb8844">&quot;------------ #{</span><span style="color: #008080">@name</span><span style="color: #bb8844">}, #{</span><span style="color: #008080">@height</span><span style="color: #bb8844">}, #{</span><span style="color: #008080">@date</span><span style="color: #bb8844">} has been put on the wall&quot;</span>
+  <span style="font-weight: bold">end</span>
+<span style="font-weight: bold">end</span>
+</pre></td></tr></table></div>
+
+
+
+</section>
+
+<section>
+  <p>On line 1, the code starts with a class called Height. A class is a Ruby object -- however, everything in Ruby is an objects. Objects can send and recieve messages, or methods. However, the objects need to first know what the methods are in order to understand them. We teach our methods by initializing them in classes. </p>
+
+  <p> On line 2, we initialized class using a method 'def initialize'. In def initialize, you will see the variables have a '@' infront of them. This is called an INSTANCE VARIABLE. An instance variable is defined in a class. It allows you to call it within different methods since it is a seperate copy of the object. </P>
+
+    <p>On line 9, starts what will be printed to the screen.Notice that each method takes a single responsibility. It follows PROOD structure, wihich can be read about in a later blog post:  </>
+
+    <p> Now, we run the code through the following test:
+  </section>
+
+  <section id = marker>
+    <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5
+6
+7
+8
+9</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #999999">test</span> <span style="font-weight: bold">=</span> <span style="color: #008080">Height</span><span style="font-weight: bold">.</span>new(<span style="color: #bb8844">&quot;Laura&quot;</span>,<span style="color: #bb8844">&quot;5&#39;1&quot;</span>, <span style="color: #bb8844">&quot;July 24, 2015&quot;</span>)
+<span style="color: #999999">test</span><span style="font-weight: bold">.</span>intro
+<span style="color: #999999">test</span><span style="font-weight: bold">.</span>measure
+<span style="color: #999999">test</span><span style="font-weight: bold">.</span>wall
+
+height <span style="font-weight: bold">=</span> <span style="color: #008080">Height</span><span style="font-weight: bold">.</span>new(<span style="color: #bb8844">&quot;Evian&quot;</span>, <span style="color: #bb8844">&quot;5&#39;7&quot;</span>, <span style="color: #bb8844">&quot;July 25, 2015&quot;</span>)
+height<span style="font-weight: bold">.</span>intro
+height<span style="font-weight: bold">.</span>measure
+height<span style="font-weight: bold">.</span>wall
+</pre></td></tr></table></div>
+
+</section>
+
+<section>
+<p> Like and ruby test, we need to call the class to see if it works. Here, we set test to Height.new ,which, calls the class. Then we put in the arguments for name, height and date.
+In order for the code in each method to run, we need to call it. We call it by putting test.intro. For the next method, we put test.measure and then finally test.wall . 
+
+The output produces:<p> 
+
+  <section id = marker>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5
+6
+7
+8
+9</pre></td><td><pre style="margin: 0; line-height: 125%">Test:
+Hello Laura. Let&#39;s measure you!
+You are 5&#39;1!
+------------ Laura, 5&#39;1, July 24, 2015 has been put on the wall
+
+Height:
+Hello Evian. Let&#39;s measure you!
+You are 5&#39;7!
+------------ Evian, 5&#39;7, July 25, 2015 has been put on the wall
+</pre></td></tr></table></div>
+    <section>
+
+      <section>
+        <p> As you can see, defining a Ruby class allows you to create any object you want, which is pretty cool. This is a pretty basic example, and there is so much more you can do with ruby! Learn on my fellow coders. 
+    <hr>
+    <p> You can check me out at:</p>
+</section>
+
+
+    <div id = "social">
+        <li><a href="https://www.facebook.com/profile.php?id=100007488663099">Facebook</a></li>
+
+        <li><a href="https://github.com/lksevans12">GitHub</a> </li>
+      
+          <li><a href="https://www.linkedin.com/in/lauraksevans">LinkedIn</a></li>
+      </div>
+</main>
+</body>
+</html>
