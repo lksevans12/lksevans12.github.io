@@ -20,7 +20,7 @@ body{
 	background-size: 100% 100%;
 }
 
-img {
+span#img {
 	height: 300px;
 	width: 300px;
 	margin-left: 400px;
@@ -53,8 +53,6 @@ ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-
-
 }
 
 li{
