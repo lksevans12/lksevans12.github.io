@@ -16,40 +16,12 @@
 body{
 	background-image: url("cherrytree.jpg");
 	background-size: 100% 100%;
-}
-
-img{
-	height: 300px;
-	width: 300px;
-	margin-left: 400px;
-	margin-top: 40px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #FFB7C5;
-}
-
-span#header{
+}span#header{
 	font-size: 200%;
 	font-family: 'Shadows Into Light', cursive, Arial;
 	color: #FFB7C5;
 }
 
-#article{
-	text-align: center;
-	display: inline-block;
-	margin-right: 300px;
-	margin-left: 300px;
-	font-size: large;
-	font-family: 'Abril Fatface', cursive;
-	color:#663300;
-}
-
-span#resume{
-	height: 1000px;
-	width: 500px;
-	margin-top: 40px;
-	
-}
 
 ul{
 	text-align: center;
@@ -89,6 +61,7 @@ a:hover{
 	font-family: 'Shadows Into Light', cursive, Arial;
 	font-size:x-large;
 	font-weight: bold;
+	color:#ff1493 ;
 }
 
 #top, #bottom, #left, #right {
