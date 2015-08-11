@@ -1,23 +1,23 @@
 #header{
 	text-align: center;
 	font-size: x-large;
-	font-weight: bolder;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Rock Salt', cursive;
 	color: #663300;
 }
 
+span#header{
+	font-size: 120%;
+	font-family: 'Playfair Display SC', serif;
+	color: #FF33CC;
+	text-decoration: none;
+}
 #nav{
-	font-family: 'Shadows Into Light', cursive, Arial;
-	font-size:large;
-	font-weight: bold;
-	
-	
+	font-family: 'Rock Salt', cursive;
+	font-size:medium;
 }
 
 ul.nav{
 	text-align: center;
-	border-style: solid;
-	border-width: 2px;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -29,40 +29,28 @@ li{
 
 }
 
-body{
-	background-image: url("cherrytree.jpg");
-	background-size: 100% ;
-}
-
-
-span#header{
-	font-size: 200%;
-	font-family: 'Shadows Into Light', cursive, Arial;
-	color: #FFB7C5;
-}
-
-a:visited{
-	color: #663300;
-
-}
 
 a:link{
 	text-decoration: none;
-	color:#ff1493  ;
+	color: #FF33CC;
+}
+
+a:visited{
+	text-decoration: none;
+	color:#FF33CC;
 }
 
 a:hover{
-	text-decoration: underline;
-	background-color: #663300;
-	color: #FFB7C5;
-	}
+	text-decoration: none;
+	color:#00CC00;
+}
 
 header{
 	text-align: center;
 	margin-right: 100px;
 	margin-left: 100px;
 	font-size: large;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Titillium Web', sans-serif;
 	color:#663300;
 }
 
@@ -71,7 +59,7 @@ section{
 	margin-right: 100px;
 	margin-left: 100px;
 	font-size: large;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Titillium Web', sans-serif;
 	color:#5C3317;
 }
 
@@ -85,31 +73,14 @@ span{
 	text-decoration: underline;
 }
 
+
+
 #social{
 	text-align: center;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	font-family: 'Shadows Into Light', cursive, Arial;
+	font-family: 'Rock Salt', cursive;
 	font-size:x-large;
 	font-weight: bold;
 }
-
-#top, #bottom, #left, #right {
-	background: #663300;
-	position: fixed;
-	}
-#left, #right {
-		top: 0; bottom: 0;
-		width: 5px;
-		}
-#left { left: 0; }
-#right { right: 0; }
-		
-#top, #bottom {
-		left: 0; right: 0;
-		height: 5px;
-		}
-#top { top: 0; }
-		
-#bottom { bottom: 0; }
