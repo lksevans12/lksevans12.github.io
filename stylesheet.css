@@ -4,8 +4,6 @@
 	font-weight: bolder;
 	font-family: 'Press Start 2P', cursive;
 	color: #663300;
-
-	
 }
 
 #nav{
@@ -17,10 +15,10 @@
 
 body{
 	background-image: url("cherrytree.jpg");
-	background-size: 100%;
+	background-size: 100% 100%;
 }
 
-img {
+img{
 	height: 300px;
 	width: 300px;
 	margin-left: 400px;
@@ -30,7 +28,7 @@ img {
 	border-color: #FFB7C5;
 }
 
-span{
+span#header{
 	font-size: 200%;
 	font-family: 'Shadows Into Light', cursive, Arial;
 	color: #FFB7C5;
@@ -46,6 +44,13 @@ span{
 	color:#663300;
 }
 
+span#resume{
+	height: 1000px;
+	width: 500px;
+	margin-top: 40px;
+	
+}
+
 ul{
 	text-align: center;
 	border-style: solid;
@@ -53,8 +58,6 @@ ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-
-
 }
 
 li{
@@ -78,6 +81,24 @@ a:hover{
 	color: #FFB7C5;
 	}
 
+.column-1 {
+    float: left;
+    position: relative;
+    width: 40%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.column-2 {
+	margin-top: 20px;
+    float: right;
+    position: relative;
+    width: 40%
+}
+
+ul.blog{
+	list-style-type: none;
+}
 #social{
 	text-align: center;
 	list-style-type: none;
