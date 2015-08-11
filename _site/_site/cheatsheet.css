@@ -1,0 +1,72 @@
+a:link {
+    color: black;
+    font-size: .80em;
+}
+a:visited {
+    color: gray;
+    font-size: .80em;
+}
+a:hover {
+    color:gray;
+    font-size: .80em;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.intro {
+    position: block;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Courier;
+}
+
+.description{
+    font-family: Arial;
+}
+
+article {
+    display:block;
+}
+
+.blue {
+    background-color: #F0F8FF;
+}
+.gitCommands {
+    float: left;
+    position: relative;
+    width: 40%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: Courier;
+    font-size: .80em;
+    text-decoration: none;
+      
+}
+
+.explanations {
+    float: right;
+    position: relative;
+    width: 40%;
+    font-family: Courier;
+    font-size: .80em;
+    text-decoration: none;
+}
+
+ul.cheatsheet{
+	list-style-type: none;
+}
+
+.references {
+    display: block;
+    margin-top: 50%;
+    font-family: Arial;
+    text-align: center;
+}
+
