@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Laura Evans</title> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>       
-  <link rel="stylesheet" type="text/css" href="about.css">
+  <link rel="stylesheet" type="text/css" href="skills.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
-  <nav class="navbar navbar-default">
     <div class="container-fluid">
+    <nav class="navbar navbar-default ">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -22,16 +22,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h3 id = "welcome"> Laura Evans </h3>
+           <h3 id = "welcome"> Laura Evans </h3>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class = "active"><a href="index.html">About</a></li>
-            <li><a href="skills.html">Skills</a></li>
+            <li><a href="index.html">About</a></li>
+            <li class = "active"><a href="skills.html">Skills</a></li>
             <li><a href="projects.html">Portfolio</a></li>
-          <ul class="nav navbar-nav navbar-right">
+
+          <ul class="nav navbar-nav navbar-left">
             <li><a href="resume.pdf">Resume</a></li>
 
           </ul>
@@ -42,22 +43,42 @@
   </nav>
 
   <div class="jumbotron">
-    <h1 id = "jumbo">About me</h1>
-    <p id = "jumbo">Hi, I'm Laura!</p>
+    <h1 id = "jumbo">Skills</h1>
+    <p id = "jumbo">I am constantly learning, but here's what I know so far!</p>
   </div>
+
   <div class="container-fluid">
-    <div class="col-xs-12 col-md-12">
-      <p id = "info">
+    <div class = "skills">
+      <div class="col-xs-6 col-md-4" id = "programming">
+        <h4>&#9830 Programming </h4> 
+        <p><b>Languages:</b> Ruby, JavaScript(jQuery, AJAX)</p>
+        <p><b>Web Frameworks:</b> Rails, Sinatra</p>
+        <p><b>Testing Frameworks:</b> RSpec, Capybara, Circle CI, Jasmine</p>
+        <p><b>Database:</b> ActiveRecord, SQl(Postfres,SQLite, NOSQL)</p>
+        <p><b>Front End:</b> HTML5, CSS3, Angular JS, Handlebars, Bootstrap</p>
+        <p><b>Version Control:</b> Git, Github</p>
+        <p><b>Methodologies:</b> Object-oriented Design, Test Driven Development</p>
+      </div>
 
-        My interest in programming began in 2014. I took a basic IT/Web class in college, and found it truly interesting.  For my senior capstone project, I chose to build a website for a small head hunting firm. However, since I took a very basic class and my skills were extremely limited, I was unable to build a fully functioning website, and instead, built a basic mockup based on the client&#39s needs. <br><br>
+      <div class="col-xs-6 col-md-4" id = "communication">
+        <h4>&#9830 Journalism </h4> 
+        <p>Feature writing</p>
+        <p>Opinion and Column writing</p>
+        <p>Online writing</p>
+        <p>News Editing</p>
+        <p>PR</p>
+        <p>News Reporting</p>
+        <p>Ad-Supported Media</p>
+      </div>
 
-        In June 2014, I graduated from DePaul University with a BA in Communication and Media, with a minor in Journalism. Shortly after I graduated, my family had an emergency, and required me to stay home full-time. Boredom shortly struck, and I began taking beginner-programming classes to keep myself busy. After the first intro to HTML/CSS class I took with <a id = "links" href = "https://www.womenwhocode.com/">Women Who Code</a>, I realized programming was something that I wanted to pursue. I began attending more classes with <a id = "links" href = "https://www.girldevelopit.com/">Girl Develop It (GDI)</a>, and was introduced to <a id = "links" href = "http://devbootcamp.com/">Dev Bootcamp (DBC)</a>.<br><br>
-
-        As of Dec 2015, I am a graduate of DBC and a certified junior web developer. <br><br>
-
-        Please make sure to check out my <a id = "links" href = "projects.html">projects</a> and my <a id = "links" href = "skills.html">skillset</a>.<br><br>
-        Thanks for stopping by!
-      </p>
+      <div class="col-xs-6 col-md-4" id = "other">
+        <h4>&#9830 Other </h4>
+        <p>Photoshop</p>
+        <p>InDesign</p>
+        <p>Prezi</p>
+        <p>Constant Contact</p>
+        <p>Knitting</p>
+      </div>
 
     </div>
   </div>
