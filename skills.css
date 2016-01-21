@@ -1,0 +1,55 @@
+body{
+  overflow: hidden;
+}
+
+.navbar{
+  margin-bottom:0;
+}
+
+.jumbotron{
+  text-align: center;
+  background-image: url('background.png');
+
+}
+
+
+#jumbo{
+  color:white;
+}
+
+.skills h4{
+  color: #1e0092;
+}
+
+.skills p{
+  color: #333333;
+}
+
+#welcome{
+  color: #1e0092;
+}
+
+#footer{
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: white;
+  background-image: url('background.png') ;
+}
+
+#footer ul{
+  padding:0;
+  margin: 0;
+}
+
+#footer li{
+  display: inline-block
+}
+
+#footer img {
+  height:3em;
+  width: 3em;
+}
