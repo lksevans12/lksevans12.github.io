@@ -9,9 +9,7 @@ body{
 .jumbotron{
   text-align: center;
   background-image: url('background.png');
-
 }
-
 
 #jumbo{
   color:white;
@@ -35,7 +33,7 @@ body{
   bottom: 0;
   text-align: center;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
   color: white;
   background-image: url('background.png') ;
 }
