@@ -112,6 +112,16 @@ html {
 
 /*End NAV*/
 
+#project-info{
+  padding-top: 100px;
+  text-align: center;
+  
+}
+
+#project-title{
+  font-size: 6em;
+  font-family: 'Abril Fatface', cursive;
+}
 
 
 /*Begin FOOTER*/
