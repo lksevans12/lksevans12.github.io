@@ -14,25 +14,11 @@ html {
 }
 
 .navbar-default {
-  background-color: #222222;
-  border-color: transparent;
-}
-
-.navbar.after-header{
-  background-color: black;
+ background-color: black;
   color: white;
   -webkit-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
   -moz-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
   box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
-}
-
-.navbar-default.after-head .nav li a {
-  font-family: 'Covered By Your Grace', cursive;
-  text-transform: uppercase;
-  font-weight: 200;
-  letter-spacing: 1px;
-  color:  white;
-  font-size: 2em;
 }
 
 .navbar-default .navbar-brand {
@@ -62,9 +48,9 @@ html {
 .navbar-default .nav li a {
   font-family: 'Covered By Your Grace', cursive;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 1px;
-  color: black;
+  color:  white;
   font-size: 2em;
 }
 .navbar-default .nav li a:hover,
@@ -85,7 +71,7 @@ html {
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: transparent;
+    background-color: black;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -112,8 +98,33 @@ html {
 
 /*End NAV*/
 
-#view-container{
+#individual-work, #collab-work, #other-work{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4em;
+}
+
+#other-work-desc{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  padding: 5px;
+}
+
+.indv-work-container{
+  margin:auto;
+}
+
+#view-container-indv{
   padding-top: 100px;
+}
+
+#view-container{
+  padding-top: 30px;
+}
+
+.view.view-second{
+  padding-right: 50px;
 }
 
 .view {
@@ -121,13 +132,14 @@ html {
     height: 200px;
     margin: 10px;
     float: left;
-    border: 10px solid #fff;
+    border: 5px solid #7613dc;
     overflow: hidden;
     position: relative;
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
+
 }
 .view .mask, .view .content {
     width: 300px;
@@ -145,21 +157,22 @@ html {
 }
 .view h2 {
     text-transform: uppercase;
-    color: #fff;
+    font-family: 'Anton', sans-serif;
+    color: #7613dc;
     text-align: center;
     position: relative;
-    font-size: 17px;
-    padding: 10px;
+    font-size: 25px;
+    padding: 5px;
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0
 }
 .view p {
     font-family: Georgia, serif;
     font-style: italic;
-    font-size: 12px;
+    font-size: 16px;
     position: relative;
-    color: #fff;
-    padding: 10px 20px 20px;
+    color: #7613dc;
+    padding: 10px;
     text-align: center
 }
 .view a.info {
@@ -178,12 +191,13 @@ html {
 .view-second img {  
   transition: all 0.2s ease-in;
 }
+
 .view-second .mask { 
   background-color: #ffffb2; 
   width: 450px;
-    padding: 40px;
+  padding: 40px;
   height: 600px;
-  opacity: 0.78;
+  opacity: 0.2;
   transform: translate(265px, 145px) rotate(45deg);
   transition: all 0.2s ease-in-out;
 }
