@@ -14,25 +14,11 @@ html {
 }
 
 .navbar-default {
-  background-color: #222222;
-  border-color: transparent;
-}
-
-.navbar.after-header{
-  background-color: black;
+ background-color: black;
   color: white;
   -webkit-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
   -moz-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
   box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
-}
-
-.navbar-default.after-head .nav li a {
-  font-family: 'Covered By Your Grace', cursive;
-  text-transform: uppercase;
-  font-weight: 200;
-  letter-spacing: 1px;
-  color:  white;
-  font-size: 2em;
 }
 
 .navbar-default .navbar-brand {
@@ -62,9 +48,9 @@ html {
 .navbar-default .nav li a {
   font-family: 'Covered By Your Grace', cursive;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 1px;
-  color: black;
+  color:  white;
   font-size: 2em;
 }
 .navbar-default .nav li a:hover,
@@ -85,7 +71,7 @@ html {
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: transparent;
+    background-color: black;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -113,7 +99,7 @@ html {
 /*End NAV*/
 
 #project-info{
-  padding-top: 100px;
+  padding-top: 25px;
   text-align: center;
   
 }
@@ -123,12 +109,66 @@ html {
   font-family: 'Abril Fatface', cursive;
 }
 
+#project-title a, #project-code a {
+  color: #3f3f3f;
+  text-decoration: none;
+}
 
+#project-title a:hover, #project-code a:hover {
+  color: #7613dc;
+}
+
+#project-code{
+  font-size: 2em;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#back-to-portfolio-btn{
+  padding-top: 150px;
+}
+
+#back-to-portfolio-btn a{
+  color: #7613dc;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+#project-status{
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  padding-bottom: 10px;
+}
+
+#project-desc{
+  font-family: 'Glegoo', serif;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#project-author{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#writing{
+  padding-top: 120px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
 /*Begin FOOTER*/
 
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #ffffb2;
 }
 footer span.copyright {
   line-height: 40px;

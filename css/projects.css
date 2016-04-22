@@ -121,6 +121,7 @@ html {
 
 #view-container{
   padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .view.view-second{
@@ -240,6 +241,7 @@ html {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #ffffb2;
 }
 footer span.copyright {
   line-height: 40px;
