@@ -7,14 +7,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>       
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="../css/portfolio.css">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <link href='https://fonts.googleapis.com/css?family=Amatic+SC|Covered+By+Your+Grace|Handlee|Marck+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC|Covered+By+Your+Grace|Handlee' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'>
 </head>
-
-<body>
 
 <body id="page-top" class="index">
 
@@ -27,7 +28,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a id = "welcome" class="navbar-brand page-scroll" href="#page-top">Laura Evans</a>
+        <a id = "welcome" class="navbar-brand page-scroll" href="../index.html">Laura Evans</a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -36,68 +37,62 @@
             <a href="#page-top"></a>
           </li>
           <li id = "about-link">
-            <a class="page-scroll" href="index.html#about-content">About</a>
+            <a href="../index.html#about-content">About</a>
           </li>
           <li>
-            <a class="page-scroll" href="skills.html">Skills</a>
+            <a href="../skills.html">Skills</a>
+          </li>
+          <li class = "active ">
+            <a href="../projects.html">Portfolio</a>
           </li>
           <li>
-            <a class="page-scroll" href="projects.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="resume.html">Resume</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="contact.html">Contact</a>
+            <a href="../contact.html">Contact</a>
           </li>
         </ul>
       </div>
+      <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container-fluid -->
   </nav>
 
-  <header id="myCarousel" class="carousel slide">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-    </ol>
+  <div class = "container-fluid">
+    <div id = "back-to-portfolio-btn"><a class = "glyphicon glyphicon-arrow-left" href = "../projects.html"> Portfolio</a></div>
+  </div>
 
-    <div class="carousel-inner">
-        <div class="item active">
-          <div class="fill" style="background-image:url('../img/tywaves.jpg');"></div>
-        </div>
-        <div class="item">
-          <div class="fill" style="background-image:url('../img/kitebuggy.jpg');"></div>
-        </div>
-        <div class="item">
-          <div class="fill" style="background-image:url('../img/prettykiteskyline.jpg');"></div>
-        </div>
-        <div class="item">
-          <div class="fill" style="background-image:url('../img/snowkiting.jpg');"></div>
-        </div>
-        <div class="item">
-          <div class="fill" style="background-image:url('../img/coupleskiteboarding.jpg');"></div>
-        </div>
+  <div id = "project-info" class = "container">
+    <h1 id = "project-title"><a href = "http://teachmesomething.herokuapp.com/" target="_blank">Teach Me Something</a> </h1>
+    <h1 id = "project-code">Code: <a href = "https://github.com/lksevans12/teachmesomething" target="_blank">lksevans12/teachmesomething</a> </h1>
+    <h3 id = "project-status"> Currently in progress </h3>
+
+    <div class="row">
+      <div class="col-md-4 portfolio-item">
+        <a href="http://teachmesomething.herokuapp.com/" target="_blank">
+        <img class="img-responsive" src="../img/teach/teachmesomething.png" alt="Teach Me Something homepage" target="_blank">
+        </a>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="http://teachmesomething.herokuapp.com/posts/2" target="_blank">
+          <img class="img-responsive" src="../img/teach/teachindpost.png" alt="Teach Me Something Individual Post">
+        </a>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="http://teachmesomething.herokuapp.com/tags/knitting" target="_blank">
+          <img class="img-responsive" src="../img/teach/teachtags.png" alt="Teach Me Something Tag Page">
+        </a>
+      </div>
     </div>
 
 
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="icon-next"></span>
-    </a>
+    <p id = "project-desc"> Teach Me Something is the first web app I built on my own after Dev Bootcamp. I describe it as 'wikipedia, but social'. The idea is that people can post informational articles in different categories -- similar to Wikipedia, however, readers will have the ability to interact with the authors, or as I call them 'teachers'. You need to specify on your profile page that you want to write articles, otherwise your profile will show you as a 'student'. </p>
 
-  </header>
+    <p id = "project-desc"> My next steps on this project are to make it responsive for desktop, tablet and mobile. I would also like to add the ability to ask a question to the author, and have the author answer. Also, I would like to implement the ability to add more than one picture to a post or profile. Building out an instant messaging system like I did for <a href = "http://spcs-app.herokuapp.com" target="_blank">spcs</a>, is also something that I thought about implementing. </p>
 
+    <p id = "project-desc">Current Technologies: Rails, PostGres, Active Record, CSS3, HTML5, JavaScript, jQuery, Bootstrap, Paperclip, AWS</p>
 
-	<div class = "container">
-		<h1> Teach Me Something </h1>
-	</div>
+    
+  </div>
 
-	 <footer>
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -119,65 +114,6 @@
 </body>
 </html>
 
-
-
-
-<div class="jumbotron">
-    <h1 id = "jumbo">Portfolio</h1>
-    <p id = "jumbo">Check out some of the work I've done!</p>
-  </div>
-
-  <div class="container-fluid">
-    <div class="col-xs-12 col-md-12">
-      <h2 id = "group-work"> Individual Work </h2>
-    </div>
-
-    <div class="col-xs-12 col-md-12">
-      <h2 id = "group-work">Collaborations</h2>
-      <div class = "projects" id = "spcs">
-        <h4 id = "links">&#9830 <a href = "http://spcs-app.herokuapp.com/"> spcs </a> | <a href = "https://github.com/nyc-bobolinks-2015/drivewaze">source </a></h4>
-        <p>By Laura Evans, Sam Purcell, Zino Hu and Michael Landon. Dec 2015.</p>
-        <p>spcs allows users to rent out their driveways or parking spots for a fee.</p>
-        <p>
-          <ul>
-            <li>Created an instant messaging system between users using Firebase.</li>
-            <li>Implemented user login and authentication using Devise.</li>
-            <li>Created and designed user profile page using Bootstrap.</li>
-            <li>Created the ability to favorite and add ratings to users and listings. </li>
-            <i><p>Technologies: Ruby, Rails, JavaScript, AJAX, ActiveRecord, Postgres</p></i>
-          </ul>
-        </p>
-      </div>
-
-      <div class = "projects" id = "latino-angular">
-        <h4 id = "links">&#9830<a href = "https://github.com/lksevans12/angular_latino_app"> Latino Cultural Center Finder </a></h4>
-        <p>By Laura Evans and Miguel Melendez. Dec 2015.</p>
-        <p>Angular application that allows users to find Latino cultural Centers in NYC using a keyword based search.</p>
-        <p>
-          <ul>
-            <li>Accessed NYC Open Data API and Google Maps API to populate app.</li>
-            <li>Applied CSS formatting</li>
-            <i><p>Technologies: Angular JS, CSS3</p></i>
-          </ul>
-        </p>
-      </div>
-
-      <div class = "projects" id = "stackoverabundance">
-        <h4 id = "links">&#9830<a href = "https://github.com/lksevans12/stackoverabundance"> Stack Overabundance</a></h4>
-        <p>By Laura Evans, Ian Lockwood, Nathan Lou, Salim Rahimi. Dec 2015.</p>
-        <p>Stack Overflow Clone.</p>
-        <p>
-          <ul>
-            <li>Created ability to add new questions.</li>
-            <li>Implemented user login and authentication and user profile page.</li>
-            <li>Assisted in the design of the application using Bootstrap.</li>
-            <li>Wrote tets for models and controller using RSpec and Capybara </li>
-            <i><p>Technologies: Ruby, Rails, JavaScript, AJAX, Active Record, Postgres</p></i>
-          </ul>
-        </p>
-      </div>
-
-    </div>
 
     <div class="col-xs-12 col-md-12">
       <h2 id = "group-work"> Writing Samples </h2>
