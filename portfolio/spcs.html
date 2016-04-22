@@ -7,14 +7,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>       
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="../css/portfolio.css">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <link href='https://fonts.googleapis.com/css?family=Amatic+SC|Covered+By+Your+Grace|Handlee|Marck+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC|Covered+By+Your+Grace|Handlee' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'>
 </head>
-
-<body>
 
 <body id="page-top" class="index">
 
@@ -27,7 +28,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a id = "welcome" class="navbar-brand page-scroll" href="#page-top">Laura Evans</a>
+        <a id = "welcome" class="navbar-brand page-scroll" href="../index.html">Laura Evans</a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -36,32 +37,66 @@
             <a href="#page-top"></a>
           </li>
           <li id = "about-link">
-            <a class="page-scroll" href="index.html#about-content">About</a>
+            <a href="../index.html#about-content">About</a>
           </li>
           <li>
-            <a class="page-scroll" href="skills.html">Skills</a>
+            <a href="../skills.html">Skills</a>
+          </li>
+          <li class = "active ">
+            <a href="../projects.html">Portfolio</a>
           </li>
           <li>
-            <a class="page-scroll" href="projects.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="resume.html">Resume</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="contact.html">Contact</a>
+            <a href="../contact.html">Contact</a>
           </li>
         </ul>
       </div>
+      <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container-fluid -->
   </nav>
 
-	<div class = "container">
-		<h1> <a href = "spcs-app.herokuapp.com">spcs</a> </h1>
-    <h3> By Laura Evans, Sam Purcell, Zino Hu and Michael Landon. Dec 2015.</h3>
+  <div class = "container-fluid">
+    <div id = "back-to-portfolio-btn"><a class = "glyphicon glyphicon-arrow-left" href = "../projects.html"> Portfolio</a></div>
+  </div>
 
-	</div>
+  <div id = "project-info" class = "container">
+    <h1 id = "project-title"><a href = "http://spcs-app.herokuapp.com" target="_blank">spcs</a> </h1>
+    <h2 id = "project-author">By Laura Evans, Sam Purcell, Zino Hu and Michael Landon</h2>
+    <h1 id = "project-code">Code: <a href = "https://github.com/lksevans12/drivewaze" target="_blank">lksevans12/spcs</a> </h1>
+    <h1 id = "project-code">Presentation: <a href = "http://www.youtube.com/watch?v=M-lx-z7bEzU&t=20m1s" target="_blank">Watch us demo our app</a> </h1>
+    <h3 id = "project-status"> December 2015 </h3>
 
-	 <footer>
+    <div class="row">
+      <div class="col-md-4 portfolio-item">
+        <a href="http://spcs-app.herokuapp.com" target="_blank">
+        <img class="img-responsive" src="../img/spcs/spcs.png" alt="spcs homepage">
+        </a>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="http://spcs-app.herokuapp.com/listings/41" target="_blank">
+          <img class="img-responsive" src="../img/spcs/bottompreviewithmap.png" alt="spcs individual listing">
+        </a>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="http://spcs-app.herokuapp.com/listings/41" target="_blank">
+          <img class="img-responsive" src="../img/spcs/toplistingpage.png" alt="spcs profile page">
+        </a>
+      </div>
+    </div>
+
+
+    <p id = "project-desc"> Meet spcs, the airbnb for driveways. Renters can visit spcs to rent out a provider's parking space, driveway or garage space for a fee. We used the <a href = "https://stripe.com/" target="_blank">Stripe API</a> to allow easy transactions between users. You must sign up for Stripe before booking and creating a listing. To create a listing, simply provide details about the parking space, thhe daily, weekly and montly fees, and any other details th the renter needs to know. Providers also have the ability to specify availability using our custom built Zin Calender. Renters can search for listing by location and availability dates. Once a user has booked a listing, providers and renters can communicate through our dynamic instant messaging system built with <a href = "https://www.firebase.com/" target="_blank">Firebase</a>. Users also have the ability to review and favorite, listings and other users.</p>
+
+    <p id = "project-desc"> Each team member had their own part of the app to build. I was responsible for the user login and authentication, implementing the ability to favorite and add ratings to users and listings, building an instant messaging system between users, and the creation and design of the profile page.  </p>
+
+    <p id = "project-desc"> In order to create or book a listing and visit a profile page, you must <a href = "http://spcs-app.herokuapp.com/users/sign_in" target="_blank">sign in</a>. Sign up for your own account or feel free to use our guest login: email: guest@spcs.com password: 12345678</p>
+
+    <p id = "project-desc">Technologies: Rails, PostGres, Active Record, CSS3, HTML5, JavaScript, jQuery, Bootstrap, Paperclip, Devise, Stripe, ZinCalender, Firebase, Google Maps API, AWS </p>
+
+    
+  </div>
+
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
