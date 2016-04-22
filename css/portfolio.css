@@ -46,7 +46,7 @@ html {
   background-color: #fed136;
 }
 .navbar-default .nav li a {
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Patrick Hand SC', cursive;
   text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 1px;
@@ -153,8 +153,8 @@ html {
   font-family: 'Abril Fatface', cursive;
 }
 
-#writing{
-  padding-top: 120px;
+#writing, #photoshop{
+  padding-top: 20px;
   padding-bottom: 30px;
   text-align: center;
   font-family: 'Abril Fatface', cursive;
@@ -162,6 +162,17 @@ html {
 
 .portfolio-item {
     margin-bottom: 25px;
+}
+
+#writing-samples, #photoshop-samples{
+   padding-bottom: 30px;
+   padding-top: 60px;
+}
+
+#writing-samples a, #photoshop-samples a{
+  font-family: 'Patrick Hand SC', cursive;
+  color: #7613dc;
+  text-decoration: none;
 }
 /*Begin FOOTER*/
 
