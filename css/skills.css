@@ -170,12 +170,20 @@ html {
   background: inherit;
 }
 
-.hexagon h3{
+.hexagon h3, .hexagon-1 h3{
   display: block;
   position: absolute;
   z-index: 3;
   font-family: 'Abril Fatface', cursive;
   margin-left: 15px;
+}
+
+.hexagon-1 h3{
+  display: block;
+  position: absolute;
+  z-index: 3;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 45px;
 }
 
 .hexagon h3 a, .hexagon-1 h3 a{
