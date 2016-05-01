@@ -96,6 +96,12 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  #welcome{
+  font-size: 4em;
+  }
+}
+
 /*End NAV*/
 
 #individual-work, #collab-work, #other-work{

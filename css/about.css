@@ -106,6 +106,12 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  #welcome{
+  font-size: 4em;
+  }
+}
+
 header {
   background-image: url('../img/homepage/mouseoversite.jpg');
   background-repeat: no-repeat;
