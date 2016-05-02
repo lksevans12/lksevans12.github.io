@@ -21,10 +21,6 @@ html {
   box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
 }
 
-.navbar-default .navbar-brand {
-  color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -97,11 +93,7 @@ html {
 
 }
 
-@media (max-width: 768px) {
-  #welcome{
-  font-size: 4em;
-  }
-}
+
 /*End NAV*/
 
 .skills-title{
@@ -116,6 +108,7 @@ html {
   text-align: center;
   font-size: 4em;
   font-family: 'Patrick Hand SC', cursive;
+  color: #7613dc;
 }
 
 #skill-icon{
@@ -186,3 +179,13 @@ ul.social-buttons li a:active {
 }
 
 /*END FOOTER*/
+
+@media (max-width: 768px) {
+  #welcome{
+  font-size: 4em;
+  }
+
+  .skills-intro{
+    font-size: 2em;
+  }
+}
