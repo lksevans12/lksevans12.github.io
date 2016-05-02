@@ -1,0 +1,123 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laura Evans</title> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>       
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="../img/homepage/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="../css/portfolio.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC|Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+</head>
+
+<body id="page-top" class="index">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a id = "welcome" class="navbar-brand page-scroll" href="../index.html">Laura Evans</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li id = "about-link">
+            <a href="../index.html#about-content">About</a>
+          </li>
+          <li>
+            <a href="../skills.html">Skills</a>
+          </li>
+          <li class = "active ">
+            <a href="../projects.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="../contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div class = "container-fluid">
+    <div id = "back-to-portfolio-btn"><a class = "glyphicon glyphicon-arrow-left" href = "../projects.html"> Portfolio</a></div>
+  </div>
+
+  <div id = "project-info" class = "container">
+    <h1 id = "project-title">Latino Cultural Center Finder</h1>
+    <h2 id = "project-author">By Laura Evans and Miguel Melendez</h2>
+    <h1 id = "project-code">Code: <a href = "https://github.com/lksevans12/angular_latino_app" target="_blank">lksevans12/latinoccfinder</a> </h1>
+    <h3 id = "project-status"> December 2015 </h3>
+    
+
+    <div class="row">
+      <div class="col-md-4 portfolio-item">
+        <a href = "../img/latino/latinohomepage.png" target="_blank">
+          <img class="img-responsive" src="../img/latino/latinohomepage.png" alt="latino homepage">
+        </a>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="../img/latino/latinomap.png" target="_blank">
+          <img class="img-responsive" src="../img/latino/latinomap.png" alt="latino individual post">
+        </a>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="../img/latino/latino search.png" target="_blank">
+          <img class="img-responsive" src="../img/latino/latino search.png" alt="latino search feature">
+        </a>
+      </div>
+    </div>
+
+
+    <div class = "col-lg-12">
+      <p id = "project-desc"> Since this app was our introduction to AngularJS, we wanted to keep it simple. We explored the <a href="https://nycopendata.socrata.com/" target="_blank"> NYC Open Data</a>, and decided that we wanted to use an API that incorporated both of our cultures, so we picked the <a href = "https://data.cityofnewyork.us/Recreation/Latin-Cultural-Organizations/799n-b76v" target="_blank">Latino Cultural Center API</a>. Users can search through the different locations using keywords or location. If you press on 'show more', the information for that cultural center will appear, and the map will jump to the centers location.</p>
+
+      <p id = "project-desc"> The hardest part of building this app was integrating the Google Maps API. Miguel and I spent most of our time trying to figure out how to make the map jump on toggle, but after playing around with it, we were able to figure it out.  </p>
+
+      <p id = "project-desc">Technologies: AngularJS, Google Maps API, NYC Open Data API, CSS3 </p>
+
+      <h3 id = "project-status"> Please note that this project is not live. However, please feel free to download the code to your local machine using the link above, run it on 'python -m SimpleHTTPServer' and connect to localhost:8000. </h3>
+    </div>
+    
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="list-inline social-buttons">
+            <li class = "icon"><a href="mailto:lksevans12@gmail.com?Subject=Hi%20Laura,%20I%20loved%20your%20site!%20Let&#39s%20talk!"><i class="fa fa-envelope"></i></a>
+            </li>
+            <li class = "icon"><a href="https://github.com/lksevans12"><i class="fa fa-github"></i></a>
+            </li>
+            <li class = "icon"><a href="https://www.linkedin.com/in/lauraksevans"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class = "icon"><a href="https://twitter.com/lksevans"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+          <div class="col-md-12">
+            <span class="copyright">Copyright &copy; Laura Evans 2016</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
