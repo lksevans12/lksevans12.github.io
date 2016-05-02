@@ -96,151 +96,36 @@ html {
   }
 }
 
-@media (max-width: 768px) {
-  #welcome{
-  font-size: 4em;
-  }
-}
-
 /*End NAV*/
 
-#individual-work, #collab-work, #other-work{
-  text-align: center;
-  padding: 10px;
+.centered {
+  text-align: center
+}
+
+.mt {
+  margin-top: 80px;
+}
+
+.mb {
+  margin-bottom: 80px;
+}
+
+.gallery {
+  margin-top: 30px;
+}
+
+.gallery img:hover {
+  opacity: 0.4;
+}
+
+#project-info{
   font-family: 'Abril Fatface', cursive;
-  font-size: 4em;
-}
-
-#other-work-desc{
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
-  padding: 5px;
 }
 
-.indv-work-container{
-  margin:auto;
+#project-container{
+  padding-top: 50px;
 }
-
-#view-container-indv{
-  padding-top: 100px;
-}
-
-#view-container{
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.view.view-second{
-  padding-right: 50px;
-}
-
-.view {
-    width: 300px;
-    height: 200px;
-    margin: 10px;
-    float: left;
-    border: 5px solid #7613dc;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
-    cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
-
-}
-.view .mask, .view .content {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0
-}
-.view img {
-    display: block;
-    height:200px;
-    width: 300px;
-    position: relative
-}
-.view h2 {
-    text-transform: uppercase;
-    font-family: 'Anton', sans-serif;
-    color: #7613dc;
-    text-align: center;
-    position: relative;
-    font-size: 25px;
-    padding: 5px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 20px 0 0 0
-}
-.view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 16px;
-    position: relative;
-    color: #7613dc;
-    padding: 10px;
-    text-align: center
-}
-.view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: #000;
-    color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000
-}
-.view a.info:hover {
-    box-shadow: 0 0 5px #000
-}
-
-.view-second img {  
-  transition: all 0.2s ease-in;
-}
-
-.view-second .mask { 
-  background-color: #ffffb2; 
-  width: 450px;
-  padding: 40px;
-  height: 600px;
-  opacity: 0.2;
-  transform: translate(265px, 145px) rotate(45deg);
-  transition: all 0.2s ease-in-out;
-}
-.view-second h2 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    background: transparent;
-    margin: 20px 40px 0px 40px;
-    transform: translate(200px, -200px);
-  transition: all 0.2s ease-in-out;
-}
-.view-second p { 
-  transform: translate(-200px, 200px);
-  transition: all 0.2s ease-in-out;
-}
-.view-second a.info { 
-    transform: translate(0px, 100px);
-  transition: all 0.2s 0.1s ease-in-out;
-} 
-
-.view-second:hover .mask { 
-  opacity:1; 
-  transform: translate(-80px, -125px) rotate(45deg);
-}               
-.view-second:hover h2 { 
-  transform: translate(0px,0px);
-  transition-delay: 0.3s; 
-}
-.view-second:hover p { 
-    transform: translate(0px,0px); 
-  transition-delay: 0.4s;
-}
-.view-second:hover a.info { 
-  transform: translate(0px,0px); 
-  transition-delay: 0.5s;
-}
-
 
 /*Begin FOOTER*/
 
@@ -285,3 +170,16 @@ ul.social-buttons li a:active {
 
 /*END FOOTER*/
 
+@media (max-width: 768px) {
+  #welcome{
+  font-size: 4em;
+  }
+
+  #project-container{
+    padding-top: 10px;
+  }
+
+  #project-info{
+    font-size: 2em;
+  }
+}
