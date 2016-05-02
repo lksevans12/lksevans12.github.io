@@ -106,11 +106,7 @@ html {
   }
 }
 
-@media (max-width: 768px) {
-  #welcome{
-  font-size: 4em;
-  }
-}
+
 
 header {
   background-image: url('../img/homepage/mouseoversite.jpg');
@@ -348,4 +344,15 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #7613dc;
+}
+
+@media (max-width: 768px) {
+  #welcome{
+  font-size: 4em;
+  }
+
+  .section-heading, .section-subheading{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  }
 }
