@@ -21,10 +21,6 @@ html {
   box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
 }
 
-.navbar-default .navbar-brand {
-  color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -96,11 +92,7 @@ html {
   }
 }
 
-@media (max-width: 768px) {
-  #welcome{
-  font-size: 4em;
-  }
-}
+
 /*End NAV*/
 
 #project-info{
@@ -109,21 +101,21 @@ html {
   
 }
 
-#project-title{
+#project-title, #project-title-stack{
   font-size: 6em;
   font-family: 'Abril Fatface', cursive;
 }
 
-#project-title a, #project-code a {
+#project-title a, #project-code a, #project-code-stack a {
   color: #3f3f3f;
   text-decoration: none;
 }
 
-#project-title a:hover, #project-code a:hover {
+#project-title a:hover, #project-code a:hover, #project-code-stack a:hover {
   color: #7613dc;
 }
 
-#project-code{
+#project-code, #project-code-stack{
   font-size: 2em;
   font-family: 'Abril Fatface', cursive;
 }
@@ -179,6 +171,7 @@ html {
   color: #7613dc;
   text-decoration: none;
 }
+
 /*Begin FOOTER*/
 
 footer {
@@ -221,3 +214,41 @@ ul.social-buttons li a:active {
 }
 
 /*END FOOTER*/
+
+@media (max-width: 768px) {
+  #welcome{
+  font-size: 4em;
+  }
+
+  #project-title{
+  font-size: 4.2em;
+  }
+
+  #project-code{
+  font-size: 1.5em;
+  }
+
+  #project-info{
+  padding-top: 5px;
+  }
+
+  #back-to-portfolio-btn{
+  padding-top: 70px;
+  }
+
+  #project-desc{
+  font-size: 1em;
+  }
+
+  #project-status{
+  font-size: 3em;
+  }
+
+  #project-title-stack{
+    font-size: 2.5em;
+  }
+
+  #project-code-stack{
+    font-size: 1.3em;
+  }
+}
