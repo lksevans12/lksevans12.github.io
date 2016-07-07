@@ -119,7 +119,10 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
-  height: 700px;
+  width:100%;
+  height:0;
+  position:relative;
+  padding-bottom:56.25%;
 }
 
 #about{
@@ -352,7 +355,7 @@ ul.social-buttons li a:active {
   background-color: #7613dc;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #welcome{
   font-size: 4em;
   }
