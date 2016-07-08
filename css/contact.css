@@ -7,8 +7,9 @@ html {
 /*Begin NAV*/
 
 #welcome{
-  font-family: 'Amatic SC', cursive;
-  font-size: 6em;
+   font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 4em;
   color: #7613dc;
   font-weight: 400;
 }
@@ -42,12 +43,12 @@ html {
   background-color: #fed136;
 }
 .navbar-default .nav li a {
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 1px;
   color:  white;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -99,19 +100,19 @@ html {
 }
 
 #contact-intro{
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 4em;
 }
 
 #how-to-contact{
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   text-align: center;
 }
 
 #resume{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Playfair Display', serif;
   font-size: 3em;
   text-align: center;
 }
@@ -128,7 +129,7 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   text-transform: none;
   font-size: x-large;
