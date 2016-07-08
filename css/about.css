@@ -10,7 +10,7 @@ html {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 4em;
-  color: #7613dc;
+  color: #8F50CF;
   font-weight: 400;
 }
 
@@ -33,28 +33,22 @@ html {
   font-weight: 200;
   letter-spacing: 1px;
   color:  white;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-  color: #fec503;
-}
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
-  background-color: #ffffb2;
-  border-color: #ffffb2;
+  background-color: #000;
+  border-color: #000;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #7613dc;
+  background-color: #ffffb2;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ffffb2;
+  background-color: #000;
 }
 .navbar-default .nav li a {
   font-family: 'Montserrat', sans-serif;
@@ -66,9 +60,9 @@ html {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #7613dc;
+  color: black;
   outline: none;
-  font-size: 3em;
+  font-size: 1em;
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
@@ -78,7 +72,6 @@ html {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #7613dc;
-  background-color: white;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -372,11 +365,42 @@ ul.social-buttons li a:active {
 
 @media (max-width: 767px) {
   #welcome{
-  font-size: 4em;
+  font-size: 2em;
+  display:none;
   }
 
   .section-heading, .section-subheading{
   font-family: 'Playfair Display', serif;
-  font-size: 3em;
+  font-size: 2em;
   }
+
+  .timeline-heading{
+    font-size:.75em;
+  }
+
+   .navbar-default {
+    background-color: transparent;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+
+  .navbar-default.after-head .nav li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  color:black;
+  letter-spacing: 1px;
+  font-size: 1em;
+  }
+
+  .navbar.after-header{
+  background-color: transparent;
+    -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  }
+
+
 }
