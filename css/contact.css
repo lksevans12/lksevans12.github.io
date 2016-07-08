@@ -96,25 +96,28 @@ html {
 /*End NAV*/
 
 #contact-info{
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 #contact-intro{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
+  padding:1em;
 }
 
 #how-to-contact{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
+  padding:1em;
 }
 
 #resume{
   font-family: 'Playfair Display', serif;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
+  padding:1em;
 }
 
 h3 a{
