@@ -113,10 +113,16 @@ html {
 
 .gallery {
   margin-top: 30px;
+
 }
 
 .gallery img:hover {
   opacity: 0.4;
+   
+}
+
+.gallery img{
+  border:1px solid #e6e6e6;
 }
 
 #project-info{
@@ -127,6 +133,7 @@ html {
 #project-container{
   padding-top: 50px;
 }
+
 
 /*Begin FOOTER*/
 
