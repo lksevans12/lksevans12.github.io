@@ -113,13 +113,14 @@ html {
 
 .gallery {
   margin-top: 30px;
-
+  position:relative;
 }
 
-.gallery img:hover {
-  opacity: 0.4;
-   
+.gallery:hover{
+  opacity:.4;
 }
+
+
 
 .gallery img{
   border:1px solid #e6e6e6;
