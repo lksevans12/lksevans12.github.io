@@ -179,18 +179,21 @@ ul.social-buttons li a:active {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 2em;
+    padding:1em;
   }
 
   #how-to-contact{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     text-align: center;
+    padding:1em;
   }
 
   #resume{
     font-family: 'Playfair Display', serif;
     font-size: 2em;
     text-align: center;
+    padding:1em;
   
    }
 
