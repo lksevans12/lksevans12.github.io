@@ -4,7 +4,7 @@ $( document ).ready(function() {
     $(this).addClass('active');
   })
 
-	var mainbottom = $('.nav-anchor').offset().top + $('.nav-anchor').height();
+	var mainbottom = $('.about-nav-anchor').offset().top + $('.about-nav-anchor').height();
  
 	$(window).on('scroll',function(){
 

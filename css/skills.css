@@ -7,8 +7,9 @@ html {
 /*Begin NAV*/
 
 #welcome{
-  font-family: 'Amatic SC', cursive;
-  font-size: 6em;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 4em;
   color: #7613dc;
   font-weight: 400;
 }
@@ -42,11 +43,11 @@ html {
   background-color: #fed136;
 }
 .navbar-default .nav li a {
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1px;
-  color:  white;
+  color: white;
   font-size: 2em;
 }
 .navbar-default .nav li a:hover,
@@ -100,15 +101,16 @@ html {
   padding-top: 100px;
   text-align: center;
   font-size: 4em;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .know-title{
   padding-top: 20px;
   text-align: center;
-  font-size: 4em;
-  font-family: 'Patrick Hand SC', cursive;
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
   color: #7613dc;
+  text-transform: uppercase;
 }
 
 #skill-icon{
@@ -121,8 +123,8 @@ html {
 }
 
 p{
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
 }
 
 #skill-icon:hover{
@@ -130,9 +132,10 @@ p{
 }
 
 .skills-intro{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Playfair Display', serif;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
+  font-style:italic;
 }
 
 
@@ -146,7 +149,7 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   text-transform: none;
   font-size: x-large;

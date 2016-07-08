@@ -7,8 +7,9 @@ html {
 /*Begin NAV*/
 
 #welcome{
-  font-family: 'Amatic SC', cursive;
-  font-size: 6em;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 4em;
   color: #7613dc;
   font-weight: 400;
 }
@@ -42,11 +43,11 @@ html {
   background-color: #fed136;
 }
 .navbar-default .nav li a {
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1px;
-  color:  white;
+  color: white;
   font-size: 2em;
 }
 .navbar-default .nav li a:hover,
@@ -102,8 +103,9 @@ html {
 }
 
 #project-title, #project-title-stack{
-  font-size: 6em;
-  font-family: 'Abril Fatface', cursive;
+  font-size: 5em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #project-title a, #project-code a, #project-code-stack a {
@@ -117,7 +119,7 @@ html {
 
 #project-code, #project-code-stack{
   font-size: 2em;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Playfair Display', serif;
 }
 
 #back-to-portfolio-btn{
@@ -134,27 +136,27 @@ html {
 }
 
 #project-status{
-  font-family: 'Amatic SC', cursive;
-  font-size: 4em;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
   padding-bottom: 10px;
 }
 
 #project-desc{
-  font-family: 'Glegoo', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1.5em;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
 #project-author{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #writing, #photoshop{
   padding-top: 20px;
   padding-bottom: 30px;
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .portfolio-item {
@@ -167,7 +169,7 @@ html {
 }
 
 #writing-samples a, #photoshop-samples a{
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Playfair Display', serif;
   color: #7613dc;
   text-decoration: none;
 }
@@ -181,7 +183,7 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   text-transform: none;
   font-size: x-large;

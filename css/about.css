@@ -7,8 +7,9 @@ html {
 }
 
 #welcome{
-  font-family: 'Amatic SC', cursive;
-  font-size: 6em;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 4em;
   color: #7613dc;
   font-weight: 400;
 }
@@ -27,12 +28,12 @@ html {
 }
 
 .navbar-default.after-head .nav li a {
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 1px;
   color:  white;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -56,7 +57,7 @@ html {
   background-color: #ffffb2;
 }
 .navbar-default .nav li a {
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -140,8 +141,12 @@ header {
 }
 
 .section-heading, .section-subheading{
-  font-family: 'Amatic SC', cursive;
-  font-size: 4em;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+}
+
+.section-subheading{
+  color: #7613dc;
 }
 
 .timeline {
@@ -233,17 +238,23 @@ header {
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Playfair Display', serif;
   font-size: 3em;
+  font-style: italic;
+  font-weight: 600;
 }
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Playfair Display', serif;
   font-size: 1.5em;
+  font-style: italic;
+
 }
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
   margin-bottom: 0;
+  font-family: 'Playfair Display', serif;
+  color: #000;
 }
 @media (min-width: 768px) {
   .timeline:before {
@@ -317,16 +328,20 @@ header {
   }
 }
 
+.placeholder{
+  display:hidden;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   text-transform: none;
-  font-size: x-large;
+  font-size: small;
   font-weight: 400;
 }
 
@@ -361,7 +376,7 @@ ul.social-buttons li a:active {
   }
 
   .section-heading, .section-subheading{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Playfair Display', serif;
   font-size: 3em;
   }
 }
