@@ -22,6 +22,11 @@ html {
   box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
 }
 
+.navbar-collapse{
+  border-top:0px !important;
+ box-shadow:none;
+}
+
 .navbar-default .navbar-brand {
   color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
@@ -32,9 +37,7 @@ html {
 .navbar-default .navbar-brand.active {
   color: #fec503;
 }
-.navbar-default .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
-}
+
 .navbar-default .navbar-toggle {
   background-color: #fed136;
   border-color: #fed136;
@@ -181,7 +184,16 @@ ul.social-buttons li a:active {
 
 @media (max-width: 768px) {
   #welcome{
-  font-size: 4em;
+  font-size: 2em;
+  }
+
+  .navbar-default.after-head .nav li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  color:black;
+  letter-spacing: 1px;
+  font-size: 1em;
   }
 
   #project-container{

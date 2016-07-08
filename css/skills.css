@@ -185,7 +185,16 @@ ul.social-buttons li a:active {
 
 @media (max-width: 768px) {
   #welcome{
-  font-size: 4em;
+  font-size: 2em;
+  }
+
+  .navbar-default.after-head .nav li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  color:black;
+  letter-spacing: 1px;
+  font-size: 1em;
   }
 
   .skills-intro{

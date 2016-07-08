@@ -191,5 +191,20 @@ ul.social-buttons li a:active {
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
     text-align: center;
+  
+   }
+
+   #welcome{
+  font-size: 2em;
   }
+
+  .navbar-default.after-head .nav li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  color:black;
+  letter-spacing: 1px;
+  font-size: 1em;
+  }
+
 }
