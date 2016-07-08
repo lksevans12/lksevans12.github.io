@@ -65,10 +65,11 @@ html {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: black;
+  color: #7613dc;
   outline: none;
-  font-size: 1em;
+  font-size: 2em;
 }
+
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color:  white;

@@ -59,7 +59,7 @@ html {
 .navbar-default .nav li a:focus {
   color: #7613dc;
   outline: none;
-  font-size: 3em;
+  font-size: 2em;
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
