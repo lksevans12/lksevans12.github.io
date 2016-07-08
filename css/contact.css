@@ -15,6 +15,10 @@ html {
   line-height: 20px;
 }
 
+.nav.navbar-nav.navbar-right{
+  padding-right:2em;
+}
+
 .navbar-default {
  background-color: black;
   color: white;

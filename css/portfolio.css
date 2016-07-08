@@ -23,6 +23,10 @@ html {
   box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
 }
 
+.nav.navbar-nav.navbar-right{
+  padding-right:2em;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
