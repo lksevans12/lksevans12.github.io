@@ -96,7 +96,7 @@ html {
 /*End NAV*/
 
 #contact-info{
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 #contact-intro{
@@ -196,6 +196,10 @@ ul.social-buttons li a:active {
     padding:2em;
   
    }
+
+   #contact-info{
+  padding-top: 200px;
+}
 
    #welcome{
   font-size: 2em;
