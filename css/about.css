@@ -15,6 +15,10 @@ html {
   line-height: 20px;
 }
 
+.navbar {
+    border: 0;
+}
+
 .navbar-default {
   background-color: #222222;
   border-color: transparent;
