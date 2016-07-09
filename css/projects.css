@@ -32,17 +32,12 @@ html {
   padding-right:2em;
 }
 
-.navbar-default .navbar-brand {
-  color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-}
-
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
   background-color: #000;
-  border-color: #000;
+  border-color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffb2;

@@ -33,7 +33,7 @@ html {
 }
 .navbar-default .navbar-toggle {
   background-color: #000;
-  border-color: #000;
+  border-color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffb2;
