@@ -79,7 +79,7 @@ html {
 .navbar-default .navbar-nav > .active > a:focus {
   color: #7613dc;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
     padding: 25px 0;
@@ -369,7 +369,7 @@ ul.social-buttons li a:active {
   background-color: #7613dc;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #welcome{
   font-size: 2em;
   display:none;
